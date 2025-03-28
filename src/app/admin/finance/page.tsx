@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge"
 import { Search, FileText, Mail, Download } from "lucide-react"
 import { format } from "date-fns"
 import { toast } from "sonner"
-import { getStudentFinanceData, createFinanceReport, getAllPayments, updatePaymentStatus } from "@/lib/firestore"
+import { getStudentFinanceData, createFinanceReport } from "@/lib/firestore"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { CreditCard } from "lucide-react"
 import { RequestActions } from '@/components/admin/RequestActions'
